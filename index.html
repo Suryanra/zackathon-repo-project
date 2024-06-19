@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+    <link href="node_modules/froala-editor/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/froala-editor@latest/css/plugins/image.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="example" >
+       
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/froala-editor@latest/js/plugins/image.min.js"></script>
+    <script type="text/javascript" src="node_modules/froala-editor/js/froala_editor.pkgd.min.js"></script>
+    <script src="page_break_plugin.js"></script>
+    <script>
+      new FroalaEditor("#example", {
+        documentReady: true
+      });
+    </script>
+  </body>
+</html>
+<!-- // 300px height jab fr-element ki hojaegi to hume uska utha kar ek new div create karna hai
+// ye jo new div hai iske andar jo content hai innerHTML hai fr-element usko new div me append karna hai
+// or ye new div bhi fr-wrapper me jaega
+// ek or new div create hoga with new page number or usme fir editing hogi or fir jab uski height 300px tak pohoch jaegi to fir same process hogi
+// height 300px hogai hai ye pata karne ke liye hum ek empty div fr-element me insert karenge or jese jese content add hoga wese uski height badti jaegi or jab 300px hojaegi to hum break kardenge or new page per shift ho jaenge. -->

@@ -1,0 +1,18 @@
+{
+  "name": "zeal-pagination-feature-team",
+  "version": "1.0.0",
+  "description": "paginate",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "paginate",
+    "zeal"
+  ],
+  "author": "paginate team",
+  "license": "ISC",
+  "dependencies": {
+    "froala-editor": "^4.2.1"
+  }
+}
