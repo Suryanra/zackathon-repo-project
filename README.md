@@ -1,5 +1,5 @@
 # Project Aim :
-we adding the features of page break in the froala 
+we adding the features of page break in the froala<br> with some added features as mention below 
 
 
 ## Features that are added:
