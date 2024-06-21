@@ -29,7 +29,7 @@ we adding the features of page break in the froala
    npm install
    ```
 4. Run the file
-   ```
+   ```bash
   now run the file with live server
    ```
 
