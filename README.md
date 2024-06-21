@@ -1,4 +1,3 @@
-# zackathon-repo-project
 # Project Aim :
 we adding the features of page break in the froala 
 
@@ -28,9 +27,9 @@ we adding the features of page break in the froala
    go to project directory
    npm install
    ```
-4. Run the file
+3. Install dependencies:
    ```bash
-  now run the file with live server
+   now run the file with live server
    ```
 
 ## Usage
